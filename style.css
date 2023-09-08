@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #19083c;
+  color: #fff;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #240d64;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li a:hover {
+  color: #cf8ee1;
+}
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin: 60px 0;
+  margin-bottom: -1100px;
+}
+.firstSection > div {
+  width: 50%;
+}
+
+.leftsection {
+  /* background-color: #ffc0cb; */
+  font-size: 3rem;
+  margin: 10x 0 0 20px;
+}
+.rightsection img {
+  height: 26%;
+  margin-left: 30%;
+}
+.purple {
+  color: #cf8ee1;
+}
+#element {
+  color: #cf8ee1;
+}
+.btn {
+  background-color: transparent;
+  font-size: medium;
+  font-weight: bold;
+  color: #d790d2;
+  padding: 10px;
+  margin-left: 30px;
+  border: #d790d2 2px solid;
+  border-radius: 20px;
+}
+
+main hr {
+  border: 0;
+  background-color: #cf8ee1;
+  height: 1.2px;
+  margin: 10px 30px;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 100vh;
+}
+.text-gray {
+  color: #808080;
+}
+.secondSection h2 {
+  font-size: 1.5rem;
+}
+.secondSection .box {
+  background: #fff;
+  width: 80vw;
+  height: 1px;
+  margin: 40px 0;
+}
+.vertical {
+  margin-top: 10px;
+  color: #a9c4e3;
+}
+
+.vertical h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: larger;
+  color: #cf8ee1;
+  text-decoration: double;
+}
+.vertical .fde {
+  font-weight: 400;
+  color: #ebeb8a;
+}
+.vertical .rr {
+  color: #c7c7ba;
+}
+.vertical h6 ul li {
+  list-style: none;
+  display: flex;
+}
+.thirdSection {
+  max-width: 90vw;
+  margin: auto;
+  height: 100vh;
+}
+.thirdSection .box {
+  background: #fff;
+  width: 80vw;
+  height: 1px;
+  margin: 20px 0;
+}
+.leftmost {
+  margin-top: 40px;
+}
+.leftmost img {
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.rightmost img {
+  height: 500px;
+  margin-left: 60%;
+  margin-top: -400px;
+}
+
+footer {
+  text-align: center;
+  background-color: #2b234e;
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+}
+.footer > div {
+  width: 223px;
+  margin-top: 123px;
+}
+.footer-content {
+  display: flex;
+  padding: 23px 132px;
+  justify-content: space-evenly;
+}
+
+.footer-content ul li {
+  list-style: none;
+}
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+}
